@@ -1,0 +1,152 @@
+// http://maps.googleapis.com/maps/api/geocode/json?address=Via+do+conhecimento,km1,+Pato+Branco,PR
+
+539694261728
+
+certain-haiku-372219
+
+AIzaSyBQKqSOljzwCo4dUNykrI_d2kQdd0PDjm8
+
+// RESULTADO 1:
+
+{
+    "results" : [
+       {
+          "address_components" : [
+             {
+                "long_name" : "Via do Conhecimento",
+                "short_name" : "Via do Conhecimento",
+                "types" : [ "route" ]
+             },
+             {
+                "long_name" : "Pato Branco",
+                "short_name" : "Pato Branco",
+                "types" : [ "administrative_area_level_4", "political" ]
+             },
+             {
+                "long_name" : "Pato Branco",
+                "short_name" : "Pato Branco",
+                "types" : [ "administrative_area_level_2", "political" ]
+             },
+             {
+                "long_name" : "Paraná",
+                "short_name" : "PR",
+                "types" : [ "administrative_area_level_1", "political" ]
+             },
+             {
+                "long_name" : "Brasil",
+                "short_name" : "BR",
+                "types" : [ "country", "political" ]
+             }
+          ],
+          "formatted_address" : "Via do Conhecimento - Pato Branco, PR, Brasil",
+          "geometry" : {
+             "bounds" : {
+                "northeast" : {
+                   "lat" : -26.1626947,
+                   "lng" : -52.678733
+                },
+                "southwest" : {
+                   "lat" : -26.206596,
+                   "lng" : -52.6974476
+                }
+             },
+             "location" : {
+                "lat" : -26.1850362,
+                "lng" : -52.6906709
+             },
+             "location_type" : "GEOMETRIC_CENTER",
+             "viewport" : {
+                "northeast" : {
+                   "lat" : -26.1626947,
+                   "lng" : -52.678733
+                },
+                "southwest" : {
+                   "lat" : -26.206596,
+                   "lng" : -52.6974476
+                }
+             }
+          },
+          "partial_match" : true,
+          "place_id" : "ChIJTRUy5UNT5ZQRJpJROGT0jDU",
+          "types" : [ "route" ]
+       }
+    ],
+    "status" : "OK"
+ }
+
+ // RESULTADO 2: [https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyBQKqSOljzwCo4dUNykrI_d2kQdd0PDjm8&address=Rua+Mar+de+Espanha,53,+S%C3%A3o+Paulo,SP]
+
+ {
+    "results" : [
+       {
+          "address_components" : [
+             {
+                "long_name" : "53",
+                "short_name" : "53",
+                "types" : [ "street_number" ]
+             },
+             {
+                "long_name" : "Rua Mar de Espanha",
+                "short_name" : "R. Mar de Espanha",
+                "types" : [ "route" ]
+             },
+             {
+                "long_name" : "Vila Matilde",
+                "short_name" : "Vila Matilde",
+                "types" : [ "political", "sublocality", "sublocality_level_1" ]
+             },
+             {
+                "long_name" : "São Paulo",
+                "short_name" : "São Paulo",
+                "types" : [ "administrative_area_level_2", "political" ]
+             },
+             {
+                "long_name" : "São Paulo",
+                "short_name" : "SP",
+                "types" : [ "administrative_area_level_1", "political" ]
+             },
+             {
+                "long_name" : "Brasil",
+                "short_name" : "BR",
+                "types" : [ "country", "political" ]
+             },
+             {
+                "long_name" : "03558-080",
+                "short_name" : "03558-080",
+                "types" : [ "postal_code" ]
+             }
+          ],
+          "formatted_address" : "R. Mar de Espanha, 53 - Vila Matilde, São Paulo - SP, 03558-080, Brasil",
+          "geometry" : {
+             "bounds" : {
+                "northeast" : {
+                   "lat" : -23.544717,
+                   "lng" : -46.5033165
+                },
+                "southwest" : {
+                   "lat" : -23.5448225,
+                   "lng" : -46.5034344
+                }
+             },
+             "location" : {
+                "lat" : -23.5447696,
+                "lng" : -46.5033743
+             },
+             "location_type" : "ROOFTOP",
+             "viewport" : {
+                "northeast" : {
+                   "lat" : -23.5434207697085,
+                   "lng" : -46.5020429197085
+                },
+                "southwest" : {
+                   "lat" : -23.5461187302915,
+                   "lng" : -46.5047408802915
+                }
+             }
+          },
+          "place_id" : "ChIJbe3nO0xnzpQRegcZA8CiwZo",
+          "types" : [ "premise" ]
+       }
+    ],
+    "status" : "OK"
+ }

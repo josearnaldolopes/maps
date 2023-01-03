@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #666;
+}
+
+p {
+  font-size: .8em;
+}
+
+#__react-alert__ {
+  position: absolute;
+  z-index: 402;
+}
+
+#__react-alert__ div div div{ 
+  width: auto!important;
+  text-transform: none!important;
+  background-color: hsla(0, 1%, 16%, 0.85)!important;
+}
+.searchForm, .addForm {
+  position: absolute;
+  z-index: 401;
+  top: .8em;
+  left: 3em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: .2em;
+}
+
+.searchForm p, .addForm p{
+  text-align: center;
+}
+
+.searchForm {
+  left: 400px;
+  width: 68%;
+}
+.addForm {
+  left: 5em;
+  width: 300px;
+}
+
+.addForm .buttonSearch {
+  left: 11em;
+}
+
+.addForm input {
+  margin: .8em .2em;
+}
+
+.addForm .buttonAdd {
+  margin: .1em .2em;
+}
+
+.searchForm #search {
+  margin: .3em;
+}
+
+input {
+  padding: .4em;
+  margin: .2em;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  width: 98%;
+  color: #666;
+}
+
+.coordinates {
+  margin: 0 auto;
+  text-align: center;
+}
+#lat, #long {
+  width: 45%;
+}
+
+.buttonAll {
+  padding: .4em;
+  background-color: #fff;
+  border: transparent;
+  width: 100%;
+}
+
+.buttonSearch {
+  position: absolute;
+  left: 85%;
+  width: 100px;
+}
+
+.buttonSearch, .buttonSearch, .buttonAdd {
+  border: none;
+}
+
+.buttonAdd {
+  padding: .8em;
+  border: none;
+}
+
+button {
+  z-index: 999!important;
+}
+
+.toUppercase {text-transform:uppercase}
+.toBold {font-weight: bold;}
+.bgWhite {background-color:#fff;color:#666}
